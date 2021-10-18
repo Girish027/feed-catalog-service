@@ -1,0 +1,15 @@
+{ 
+    "description": "Optus Client",
+    "feedName": "Collab_Tagging_1",
+    "scheduleConfig":{"type": "ADHOC"},
+    "compressionConfig":{"type": "ZIP"},
+    "platform": "DP2",
+    "exportFormat":{"type":"TSV"},
+    "destinationName":"12345",
+    "reportList": [{
+      "reportName":"report1",
+      "sourceScheme":"hdfs",
+      "sourcePath":"\\OutPutPath\\x\\y\\z",
+     "loadStrategy":"Dynamic"}]
+
+}
